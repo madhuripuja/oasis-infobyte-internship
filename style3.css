@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container {
+    text-align: center;
+    background-color:whitesmoke;
+    border-radius: 50px;
+    box-shadow:0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 50px;
+    
+}
+h1 {
+    color:black;
+    margin-bottom: 20px;
+}
+label {
+    font-size: 18px;
+    color:black;
+    margin-right: 10px;
+}
+input[type="number"] {
+    width: 150px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+}
+button {
+    padding: 12px 24px;
+    background-color: black;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+button:hover {
+    background-color: #0056b3;
+}

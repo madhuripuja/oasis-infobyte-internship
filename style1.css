@@ -1,0 +1,162 @@
+/* Resetting default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+}
+.navbar {
+    width: 100%;
+    background-color: white;
+    overflow: auto;
+  }
+  
+  .navbar a {
+    float: left;
+    padding: 12px;
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+    width: 25%; /* Four links of equal widths */
+    text-align: center;
+  }
+  
+  .navbar a:hover {
+    background-color: rgb(238, 135, 250);
+  }
+  
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header styles */
+.header {
+    background-image: url('https://t4.ftcdn.net/jpg/02/91/74/87/360_F_291748700_owTB4oJPkTTYe5IagHMtMsptzpB68jSm.jpg');
+    background-size: cover;
+    color: #ffffff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.header h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    background-color: rgba(128, 0, 128, 0.766);
+}
+
+.header p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    background-color:black;
+}
+
+/* Button styles */
+html, body {
+    height: 100%;
+}
+
+.btn {
+    display: inline-block;
+   
+    text-align: center;
+    padding: 10px 20px;
+    background-color: #61abff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+
+}
+
+.btn:hover {
+    background-color:black;
+}
+
+/* Featured Products Section styles */
+.featured-products {
+    padding: 80px 0;
+}
+
+
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+/* About Section styles */
+.about {
+    background-color: white;
+    padding: 80px 0;
+    text-align: center;
+}
+
+
+.about p {
+    margin-bottom: 30px;
+}
+
+/* Newsletter Section styles */
+.newsletter {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 60px 0;
+}
+
+.newsletter p {
+    margin-bottom: 20px;
+}
+
+.newsletter-form input {
+    padding: 10px;
+    width: 250px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.newsletter-form button {
+    padding: 10px 20px;
+    background-color: #fff;
+    
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.newsletter-form button:hover {
+    background-color: #f2f2f2;
+}
+
+/* Footer Section styles */
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+}
+.fa-facebook {
+    background: whitesmoke;
+    color: black;
+  }
+  .fa-instagram {
+    background: purple;
+    color: white;
+  }
+  .fa-twitter {
+    background: rgba(0, 166, 255, 0.982);
+    color: white;
+  }
+  
+
